@@ -1,3 +1,4 @@
+/*
 import 'package:fundamental_dart/fundamental_dart.dart';
 import 'package:test/test.dart';
 
@@ -6,3 +7,4 @@ void main() {
     expect(calculate(), 42);
   });
 }
+*/
