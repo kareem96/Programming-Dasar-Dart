@@ -1,18 +1,18 @@
 class Animal{
-  String _name = "";
-  int _age = 0;
-  double _weight = 0;
+  String name = "";
+  int age = 0;
+  double weight = 0;
 
 
-  Animal(this._name, this._age, this._weight);
+  /*Animal(this._name, this._age, this._weight);*/
 
-  set name(String value){
+  /*set name(String value){
     _name = value;
   }
 
-  double get weight => _weight;
+  double get weight => _weight;*/
 
-  void eat(){
+  /*void eat(){
     print('$_name is eating');
   }
 
@@ -22,5 +22,5 @@ class Animal{
 
   void poop(){
     print("$_name is pooping");
-  }
+  }*/
 }
