@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(){
-  var primeNumbers = [
+  /*var primeNumbers = [
     2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71
   ];
   stdout.write("Masukan bilangan prima : ");
@@ -12,5 +12,12 @@ void main(){
       break;
     }
     print("$searchNumber != ${primeNumbers[i]}");
+  }*/
+
+  for(int i = 1; i <= 10; i++){
+    if(i % 3 == 0){
+      continue;
+    }
+    print(i);
   }
 }
